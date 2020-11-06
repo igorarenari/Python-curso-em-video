@@ -1,0 +1,8 @@
+x = input('Escolha algo:')
+print('O tipo primitivo do que foi escolhido é:', type(x))
+print('Só tem espaços?', x.isspace())
+print('Só tem números?', x.isnumeric())
+print('É somente letras?', x.isalpha())
+print('O que foi escolhido é alphanumérico?', x.isalnum())
+print('Está totalmente em maiúsculas?', x.isupper())
+print('Está totalmente em minúsculas?', x.islower())
